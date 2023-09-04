@@ -48,6 +48,6 @@ result_4 = gen.getManifestsInCollection("https://dl.ficlit.unibo.it/iiif/19428-1
 # etc...
 
 #print(result_1)
-#print(result_2)
+print(result_2)
 #print(result_3)
-print(result_4)
+#print(result_4)

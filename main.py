@@ -703,7 +703,7 @@ class GenericQueryProcessor(QueryProcessor):
                                 entity_label = entity_info.get("label")
 
                                  
-                        entity_object = EntityWithMetaData(
+                        entity_object = EntityWithMetadata(
                                 id=entity_id,
                                 label=entity_label,
                                 title=entity_title,
@@ -738,7 +738,7 @@ class GenericQueryProcessor(QueryProcessor):
                             entity_creator = entity_info.get("creator")
                             entity_title = entity_info.get("title")
 
-                    entity_object = EntityWithMetaData(
+                    entity_object = EntityWithMetadata(
                                 id=entity_id,
                                 label=entity_label,
                                 title=entity_title,
@@ -773,7 +773,7 @@ class GenericQueryProcessor(QueryProcessor):
                             if entity_info is not None:
                                 entity_label = entity_info.get("label")
 
-                        entity_object = EntityWithMetaData(
+                        entity_object = EntityWithMetadata(
                                 id=entity_id,
                                 label=entity_label,
                                 title=entity_title,
